@@ -14,7 +14,7 @@ class Stkcli < Formula
     (buildpath/"src/github.com/Statiko-dev/stkcli").install buildpath.children
     cd "src/github.com/Statiko-dev/stkcli" do
       system "go", "build", "-ldflags",
-        "-X github.com/statiko-dev/stkcli/buildinfo.BuildID=v0.5.0-beta.3" +
+        "-X github.com/statiko-dev/stkcli/buildinfo.BuildID=v0.5.0-beta.3" \
         "-X github.com/statiko-dev/stkcli/buildinfo.CommitHash=brew",
         "-o", bin/"stkcli", "."
     end
