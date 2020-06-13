@@ -1,11 +1,13 @@
-# Statiko-dev Tap
+# Statiko Homebrew Tap
 
-## How do I install these formulae?
+This repository contains the Homebrew tap for Statiko tools.
 
-`brew install statiko-dev/tap/<formula>`
+> [Homebrew](https://brew.sh/) is a package manager for macOS
 
-Or `brew tap statiko-dev/tap` and then `brew install <formula>`.
+## stkcli
 
-## Documentation
+[stkcli](https://github.com/statiko-dev/stkcli) is the official CLI for managing Statiko nodes and applications.
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```sh
+brew install statiko-dev/tap/stkcli
+```
