@@ -2,7 +2,7 @@ class Stkcli < Formula
     desc "A CLI to manage Statiko nodes and apps"
     homepage "https://github.com/Statiko-dev/stkcli"
     url "https://github.com/Statiko-dev/stkcli/archive/v0.5.0-beta.3.tar.gz"
-    sha256 "a5dd6a13b3bd832eb548d81da094b85f07ec8110d423b3f4d5f45ddf1668aeb7"
+    sha256 "f78dbabd71efca16a26e351434447ef99eff574cee9034232388f8afb40268d8"
   
     depends_on "go" => ["1.13", :build]
   
